@@ -4,7 +4,7 @@
     <color name="verde_scuro">#2AA300</color>
     <color name="giallo">#F6E54A</color>
     <color name="rosso">#FA0000</color>
-    <color name="bianco">#FFFFFF</color>
-    <color name="nero">#FF000000</color>
+    <color name="bianco">#FFFFFFFF</color>
+    <color name="nero">#F0000000</color>
     <color name="trasparente">#00000000</color>
 </resources>
