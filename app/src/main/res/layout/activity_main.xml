@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/verde_scuro"
-    tools:context=".MainActivity">
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
 
     <View
         android:id="@+id/view_Sfondo"
@@ -15,13 +17,14 @@
         android:layout_margin="20dp"
 
         android:background="@color/verde"
-
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.5" />
+        app:layout_constraintVertical_bias="0.5"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button_Singleplayer"
@@ -32,13 +35,16 @@
         android:backgroundTint="@color/giallo"
         android:text="@string/singleplayer"
         android:textColor="@color/nero"
-        android:textSize="25sp"
 
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.40"
-        tools:ignore="TextContrastCheck" />
+        app:layout_constraintVertical_bias="0.4"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button_Multiplayer"
@@ -51,11 +57,14 @@
         android:textColor="@color/nero"
         android:textSize="25sp"
 
+        android:textStyle="bold"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.70"
-        tools:ignore="TextContrastCheck" />
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button_credits"
@@ -71,6 +80,21 @@
 
         app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
         app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
-        app:layout_constraintStart_toStartOf="@+id/view_Sfondo" />
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        tools:ignore="TextContrastCheck" />
+
+    <HorizontalScrollView
+        android:layout_width="0dp"
+        android:layout_height="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

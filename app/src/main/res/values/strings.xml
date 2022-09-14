@@ -5,4 +5,10 @@
     <string name="fritto_misto_games">Fritto misto games</string>
     <string name="game_configuration">Game\nConfiguration</string>
     <string name="start">Start</string>
+    <string name="set_games">Set games:</string>
+    <string name="name_cpu">Name cpu:</string>
+    <string name="name_player">Name player:</string>
+    <string name="score_cpu">Score CPU:</string>
+    <string name="score_player">Score Player:</string>
+    <string name="winner_n_nname">Winner:\n\nname</string>
 </resources>

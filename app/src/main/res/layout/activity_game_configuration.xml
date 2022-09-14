@@ -16,45 +16,107 @@
 
         android:background="@color/verde"
 
-        app:layout_constraintVertical_bias="0.5"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_Game_configuration"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
 
+
+        android:layout_marginTop="16dp"
 
         android:text="@string/game_configuration"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/bianco"
         android:textSize="40sp"
-
-        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
         app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
-        app:layout_constraintTop_toTopOf="@+id/view_Sfondo" />
+        app:layout_constraintTop_toTopOf="@+id/view_Sfondo"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
 
     <Button
         android:id="@+id/button_Start"
 
         android:layout_width="200dp"
         android:layout_height="100dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="60dp"
 
         android:backgroundTint="@color/rosso"
-        android:text="@string/start"
-        android:textColor="@color/nero"
-        android:textSize="25sp"
 
+        android:text="@string/start"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
         app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
         app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Nome_Giocatore"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/giallo"
+        android:text="@string/name_player"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Game_configuration"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Nome_Giocatore2"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/giallo"
+        android:text="@string/name_cpu"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Nome_Giocatore"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Set_di_gioco"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/giallo"
+        android:text="@string/set_games"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Nome_Giocatore2"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

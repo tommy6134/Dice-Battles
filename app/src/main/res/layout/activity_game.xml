@@ -5,7 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/verde_scuro"
-    tools:context=".GameActivity">
+    android:visibility="visible"
+    tools:context=".GameActivity"
+    tools:visibility="visible">
 
     <View
         android:id="@+id/view_Sfondo"
@@ -16,11 +18,112 @@
 
         android:background="@color/verde"
 
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textView_Punteggio_cpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/score_cpu"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="@+id/view_Sfondo"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Punteggio_player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="@string/score_player"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Vincitore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/winner_n_nname"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Riga"
+        android:layout_width="0dp"
+        android:layout_height="0.1dp"
+        android:visibility="visible"
+        android:background="@color/bianco"
+        app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_Cpu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/trasparente"
+
+
+        app:layout_constraintBottom_toBottomOf="@+id/textView_Riga"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+
+        app:layout_constraintTop_toTopOf="@id/view_Sfondo"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/button_Player"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/trasparente"
+
+
+        app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="@+id/textView_Riga"
+        app:layout_constraintVertical_bias="0.5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
