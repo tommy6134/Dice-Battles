@@ -2,4 +2,6 @@
     <string name="app_name">Dice Battles</string>
     <string name="multiplayer">Multiplayer</string>
     <string name="singleplayer">Singleplayer</string>
+    <string name="fritto_misto_games">Fritto misto games</string>
+    <string name="game_configuration">Game\nConfiguration</string>
 </resources>
