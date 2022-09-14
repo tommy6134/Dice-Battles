@@ -16,21 +16,21 @@
 
         android:background="@color/verde"
 
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button_Singleplayer"
-        
+
         android:layout_width="wrap_content"
         android:layout_height="100dp"
-        
-        android:text="@string/singleplayer"
+
         android:backgroundTint="@color/giallo"
+        android:text="@string/singleplayer"
         android:textColor="@color/nero"
         android:textSize="25sp"
 
@@ -46,8 +46,8 @@
         android:layout_width="wrap_content"
         android:layout_height="100dp"
 
-        android:text="@string/multiplayer"
         android:backgroundTint="@color/giallo"
+        android:text="@string/multiplayer"
         android:textColor="@color/nero"
         android:textSize="25sp"
 
@@ -63,14 +63,14 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
 
-        android:text="@string/fritto_misto_games"
-        android:shadowColor="@color/trasparente"
         android:background="@color/trasparente"
-        android:textColor="@color/nero"
+        android:shadowColor="@color/trasparente"
+        android:text="@string/fritto_misto_games"
+        android:textColor="@color/bianco"
         android:textSize="25sp"
-        
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+
+        app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
