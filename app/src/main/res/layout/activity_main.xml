@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/verde_scuro"
-    android:backgroundTint="@color/verde"
+    android:backgroundTint="@color/verde_scuro"
     android:visibility="visible"
     tools:context=".MainActivity"
     tools:visibility="visible">
@@ -98,11 +98,50 @@
         android:textColor="@color/bianco"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:visibility="visible"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
         app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@id/view_Sfondo"
-        tools:visibility="visible" />
+        tools:ignore="TextContrastCheck"
+        tools:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado_giocatore_singolo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/dado_1"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
+
+        app:layout_constraintStart_toEndOf="@id/button_Singleplayer"
+        app:layout_constraintBottom_toTopOf="@id/button_Multiplayer"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado_giocatore_multiplo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/dado_5"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="60dp"
+
+        app:layout_constraintTop_toBottomOf="@id/button_Singleplayer"
+        app:layout_constraintEnd_toStartOf="@id/button_Multiplayer"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView_Icona"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/scritta_entrypoint__dice_battles_"
+
+        app:layout_constraintTop_toTopOf="@id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
