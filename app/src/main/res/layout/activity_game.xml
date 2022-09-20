@@ -125,5 +125,80 @@
         app:layout_constraintVertical_bias="0.5"
         tools:ignore="SpeakableTextPresentCheck" />
 
+    <ImageView
+        android:id="@+id/imageView_Dado1_player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dado_1"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+        android:layout_marginEnd="210dp"
+        android:layout_marginBottom="240dp" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado2_player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dado_1"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+        android:layout_marginBottom="110dp" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado3_player"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dado_1"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+        android:layout_marginStart="210dp"
+        android:layout_marginBottom="240dp" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado1_cpu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dado_1"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="@id/view_Sfondo"
+        android:layout_marginEnd="210dp"
+        android:layout_marginTop="240dp" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado2_cpu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dado_1"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="@id/view_Sfondo"
+        android:layout_marginTop="110dp" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado3_cpu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dado_1"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="@id/view_Sfondo"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="240dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

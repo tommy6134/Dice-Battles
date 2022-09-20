@@ -103,49 +103,46 @@
         android:id="@+id/imageButton_Dado1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/dado_1"
-
-        android:background="@color/trasparente"
-        android:scaleType="fitCenter"
-        android:layout_marginBottom="20dp"
         android:layout_marginStart="15dp"
 
+        android:layout_marginBottom="20dp"
+        android:background="@color/trasparente"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+
         app:layout_constraintStart_toStartOf="@id/view_Sfondo"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5" />
+        app:srcCompat="@drawable/dado_1"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton_Dado2"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/dado_2"
-
-        android:background="@color/trasparente"
-        android:scaleType="fitCenter"
-        android:layout_marginBottom="20dp"
         android:layout_marginStart="12dp"
 
+        android:layout_marginBottom="20dp"
+        android:background="@color/trasparente"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+
         app:layout_constraintStart_toEndOf="@id/imageButton_Dado1"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5" />
+        app:srcCompat="@drawable/dado_2"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton_Dado3"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/dado_3"
-
-        android:background="@color/trasparente"
-        android:scaleType="fitCenter"
-        android:layout_marginBottom="20dp"
         android:layout_marginStart="12dp"
 
+        android:layout_marginBottom="20dp"
+        android:background="@color/trasparente"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+
         app:layout_constraintStart_toEndOf="@id/imageButton_Dado2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.5" />
+        app:srcCompat="@drawable/dado_3"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView_Numero_dadi"
