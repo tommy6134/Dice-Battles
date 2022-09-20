@@ -3,6 +3,7 @@ package it.frittomistogames.dicebattles;
 import androidx.appcompat.app.AppCompatActivity;
 import java.util.Random;
 
+import android.media.Image;
 import android.os.Bundle;
 import android.view.WindowManager;
 
@@ -29,4 +30,5 @@ public class GameActivity extends AppCompatActivity {
     }
 
     //Funzione che restituisca il/i dado/i graficamente (utilizzando gli assets accordati)
+
 }

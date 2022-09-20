@@ -14,6 +14,8 @@ public class GameConfigurationActivity extends AppCompatActivity {
         setContentView(R.layout.activity_game_configuration);
     }
 
-    //Inserire variabili che riguarderanno la selezione dei dadi (vedi notion per maggiori dettagli)
+    //Variabili
+    int dicesValues = 1;
+
     //Inserire funzione che controlli gli input dell'utente (per maggiori dettagli vedi documentaione su notion)
 }
