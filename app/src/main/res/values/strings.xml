@@ -12,4 +12,10 @@
     <string name="score_player">Score Player:</string>
     <string name="winner_n_nname">Winner:\n\nname</string>
     <string name="dice_number">Dice number:</string>
+    <string name="bottone_per_1_dado">bottone per 1 dado</string>
+    <string name="bottone_per_2_dado">bottone per 2 dado</string>
+    <string name="bottone_per_3_dado">bottone per 3 dado</string>
+    <string name="dado_1">Dado 1</string>
+    <string name="dado_5">Dado 5</string>
+    <string name="icona">Icona</string>
 </resources>
