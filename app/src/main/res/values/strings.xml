@@ -11,4 +11,5 @@
     <string name="score_cpu">Score CPU:</string>
     <string name="score_player">Score Player:</string>
     <string name="winner_n_nname">Winner:\n\nname</string>
+    <string name="dice_number">Dice number:</string>
 </resources>

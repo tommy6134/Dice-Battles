@@ -33,6 +33,7 @@
         android:layout_marginTop="20dp"
 
         android:text="@string/game_configuration"
+        android:fontFamily="@font/secular_one"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/bianco"
@@ -51,6 +52,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="40dp"
         android:background="@color/giallo"
+        android:fontFamily="@font/secular_one"
         android:text="@string/name_player"
         android:textAlignment="center"
         android:textColor="@color/bianco"
@@ -69,6 +71,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="60dp"
         android:background="@color/giallo"
+        android:fontFamily="@font/secular_one"
         android:text="@string/name_cpu"
         android:textAlignment="center"
         android:textColor="@color/bianco"
@@ -87,6 +90,7 @@
         android:layout_height="70dp"
         android:layout_marginTop="60dp"
         android:background="@color/giallo"
+        android:fontFamily="@font/secular_one"
         android:text="@string/set_games"
         android:textAlignment="center"
         android:textColor="@color/bianco"
@@ -153,7 +157,8 @@
 
         android:layout_marginTop="20dp"
 
-        android:text="Dice number:"
+        android:text="@string/dice_number"
+        android:fontFamily="@font/secular_one"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="@color/bianco"

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verde_scuro"
+    android:backgroundTint="@color/verde_scuro"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <View
+        android:id="@+id/view_Sfondo"
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+
+        android:background="@color/verde"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_credits"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/trasparente"
+        android:shadowColor="@color/trasparente"
+        android:text="@string/fritto_misto_games"
+        android:textColor="@color/bianco"
+        android:fontFamily="@font/secular_one"
+        android:textSize="25sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@+id/view_Sfondo"
+        app:layout_constraintStart_toStartOf="@+id/view_Sfondo"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView_Credits"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:background="@color/verde"
+        android:backgroundTint="@color/verde"
+
+        android:fontFamily="@font/secular_one"
+        android:shadowColor="@color/verde"
+
+        android:text="Developed by:\n\nThomas Amerio\nChristian Fresu\n\n\nGo on our website:\n\nwww.frittomistogames.it\n\n\nGame version:\n0.2"
+        android:textAlignment="center"
+        android:textColor="@color/bianco"
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/view_Sfondo"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        tools:ignore="TextContrastCheck"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_Icona"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="@id/view_Sfondo"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@id/view_Sfondo"
+        app:layout_constraintTop_toTopOf="@id/view_Sfondo"
+        app:srcCompat="@drawable/scritta_entrypoint__dice_battles_"
+        tools:ignore="ImageContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
