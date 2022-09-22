@@ -11,6 +11,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide(); //nasconde la titleBar e la appBar
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_game2);
     }
 }

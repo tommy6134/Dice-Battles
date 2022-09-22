@@ -1,20 +1,31 @@
 <resources>
     <string name="app_name">Dice Battles</string>
-    <string name="multiplayer">Multiplayer</string>
+
     <string name="singleplayer">Singleplayer</string>
+    <string name="multiplayer">Multiplayer</string>
     <string name="fritto_misto_games">Fritto misto games</string>
+
     <string name="game_configuration">Game\nConfiguration</string>
-    <string name="start">Start</string>
     <string name="set_games">Set games:</string>
     <string name="name_cpu">Name cpu:</string>
     <string name="name_player">Name player:</string>
+    <string name="dice_number">Dice number:</string>
+
     <string name="score_cpu">Score CPU:</string>
     <string name="score_player">Score Player:</string>
+    <string name="score_player1">Score Player1:</string>
+    <string name="score_player2">Score Player2:</string>
     <string name="winner_n_nname">Winner:\n\nname</string>
-    <string name="dice_number">Dice number:</string>
+
     <string name="bottone_per_1_dado">bottone per 1 dado</string>
     <string name="bottone_per_2_dado">bottone per 2 dado</string>
     <string name="bottone_per_3_dado">bottone per 3 dado</string>
+    <string name="dado_player_1">dado player 1</string>
+    <string name="dado_player_2">dado player 2</string>
+    <string name="dado_player_3">dado player 3</string>
+    <string name="dado_cpu_1">dado cpu 1</string>
+    <string name="dado_cpu_2">dado cpu 2</string>
+    <string name="dado_cpu_3">dado cpu 3</string>
     <string name="dado_1">Dado 1</string>
     <string name="dado_5">Dado 5</string>
     <string name="icona">Icona</string>

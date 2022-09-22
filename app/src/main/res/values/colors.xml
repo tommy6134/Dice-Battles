@@ -7,4 +7,5 @@
     <color name="bianco">#FFFFFFFF</color>
     <color name="nero">#F0000000</color>
     <color name="trasparente">#00000000</color>
+    <color name="sfondo_icona">#008037</color>
 </resources>

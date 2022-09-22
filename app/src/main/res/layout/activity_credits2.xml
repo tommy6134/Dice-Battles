@@ -45,6 +45,89 @@
         android:visibility="visible"
         tools:visibility="visible" />
 
+    <ImageView
+        android:id="@+id/imageView_Dado_giocatore_singolo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/dado_1"
+
+        app:layout_constraintTop_toTopOf="@id/guideline_Horizontal_35"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_Horizontal_55"
+        app:layout_constraintStart_toStartOf="@id/guideline_Vertical_70"
+        app:layout_constraintEnd_toEndOf="@id/guideline_Vertical_110"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/dado_1"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_Dado_giocatore_multiplo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/dado_5"
+
+        app:layout_constraintTop_toTopOf="@id/guideline_Horizontal_60"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_Horizontal_80"
+        app:layout_constraintStart_toStartOf="@id/guideline_Vertical_meno10"
+        app:layout_constraintEnd_toEndOf="@id/guideline_Vertical_30"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/dado_5"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Bottone_fake_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:background="@color/giallo"
+        android:textColor="@color/nero"
+        android:text="@string/singleplayer"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        style="@style/TextAppearance.MaterialComponents.Button"
+
+
+        app:layout_constraintTop_toTopOf="@id/guideline_Horizontal_40"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_Horizontal_50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/guideline_Vertical_60"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_Bottone_fake_2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:background="@color/giallo"
+        android:textColor="@color/nero"
+        android:text="@string/multiplayer"
+        android:fontFamily="@font/secular_one"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        style="@style/TextAppearance.MaterialComponents.Button"
+
+        app:layout_constraintTop_toTopOf="@id/guideline_Horizontal_65"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_Horizontal_75"
+        app:layout_constraintStart_toStartOf="@id/guideline_Vertical_40"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.5"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
     <Button
         android:id="@+id/button_Credits"
         android:layout_width="0dp"
